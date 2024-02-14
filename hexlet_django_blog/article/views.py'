@@ -12,5 +12,5 @@ tags = ['articles',]
 
 class IndexView(View):
 
-    def get(self, request, *args, **kwargs):
+    def index(self, request):
         return HttpResponse(tags)
